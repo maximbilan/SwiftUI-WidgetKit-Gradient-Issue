@@ -44,8 +44,8 @@ struct WidgetsEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        RadialGradient(gradient: Gradient(colors: [Color("color1"), Color("color2")]), center: .center, startRadius: 5, endRadius: 50)
-//        LinearGradient(gradient: Gradient(colors: [Color("color1"), Color("color2")]), startPoint: .top, endPoint: .bottom)
+//        RadialGradient(gradient: Gradient(colors: [Color("color1"), Color("color2")]), center: .center, startRadius: 5, endRadius: 50)
+        LinearGradient(gradient: Gradient(colors: [Color("color1"), Color("color2")]), startPoint: .top, endPoint: .bottom)
     }
 }
 
